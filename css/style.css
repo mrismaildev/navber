@@ -1,0 +1,91 @@
+/* All common Css Start */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+ list-style: none; 
+}
+a{
+  text-decoration: none;
+}
+.containt{
+  width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+body{
+      font-family: 'Montserrat', sans-serif;
+      color: #fff;
+}
+/* All common Css end */
+
+/* header Part design Start */
+.headerPart{
+background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);;
+}
+/* .menu logo text and logo design start */
+.menu{
+  display: flex;
+  padding: 43px 0;
+  align-items: center;
+  gap: 8px;
+}
+.logo_text{
+  font-weight: 700;
+  font-size: 1em;
+  position: relative;
+}
+.logo_text::after{
+  content: "Beta";
+  position: absolute;
+    top: -20px;
+    right: -20px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    background-color: #FF7BDA;
+    font-size: 0.8em;
+}
+.logo img{
+ width: 50px;
+
+}
+/* .menu logo text and logo design End */
+
+nav,ul,li{
+  display: inline-block;
+}
+nav ,ul, li, a{
+ color: #fff;
+ margin: 0 8px;
+ letter-spacing: 2px;
+ font-weight: normal;
+ padding: 3px 0;
+
+}
+ li.gc3{
+  position: relative;
+
+
+ }
+
+ li.gc3::after{
+    content: "New";
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    background-color: #FF08E2;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+
+
+
+
